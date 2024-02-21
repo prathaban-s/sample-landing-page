@@ -5,17 +5,15 @@ import facebookIcon from "@/assets/icons/facebook.svg";
 import twitterIcon from "@/assets/icons/twitter.svg";
 import pintrestIcon from "@/assets/icons/pintrest.svg";
 import muskIcon from "@/assets/icons/musk.svg";
+
 export default function Intro() {
   return (
     <div className="h-auto bg-secondary sm:h-screen flex justify-center items-center m-auto flex-col gap-7 p-10 ">
-      <p className="text-white text-7xl text-center font-extrabold ">
-        Minimize your tabs.
-        <br />
-        Find the trends
+      <p className="text-white text-7xl text-center font-extrabold max-w-[700px]">
+        Minimize your tabs. Find the trends
       </p>
-      <p className="text-muted text-center">
+      <p className="text-muted text-center max-w-[666px]">
         Don’t let your computer memories consumes all of those browser tabs.
-        <br />
         Findtrend let you gathers all of your favorite website into one place.
       </p>
       <Button className="rounded-full font-bold text-lg" size="lg">
