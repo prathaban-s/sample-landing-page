@@ -7,7 +7,7 @@ export default function NewTab() {
     <div className="bg-primary h-auto sm:h-[75vh] flex justify-center items-center m-auto flex-col gap-7 p-10">
       <p className="font-extrabold text-7xl">Open new tabs is sh*t</p>
       <div className="flex items-center justify-center flex-wrap">
-        <div className="bg-white h-[150px]  w-auto sm:w-[350px] rounded-lg flex items-center justify-center">
+        <div className="bg-white h-[150px]  w-full sm:w-[350px] rounded-lg flex items-center justify-center">
           <SlidingCard title="Findtrend" icon={speedIcon} cardClass="" />
         </div>
       </div>
