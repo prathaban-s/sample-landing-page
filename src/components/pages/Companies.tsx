@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import brandsImage from "../../assets/images/brands.png";
+import brandsImage from "../../assets/images/Brands.png";
 
 export default function Companies() {
   return (
