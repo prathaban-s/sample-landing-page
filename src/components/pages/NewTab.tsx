@@ -1,6 +1,6 @@
 import React from "react";
 import SlidingCard from "../card/SlidingCard";
-import speedIcon from "@/assets/icons/speed.svg";
+import speedIcon from "../../assets/icons/speed.svg";
 
 export default function NewTab() {
   return (
