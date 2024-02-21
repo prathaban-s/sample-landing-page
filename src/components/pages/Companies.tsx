@@ -15,7 +15,7 @@ import ImageCard from "../card/ImageCard";
 export default function Companies() {
   return (
     <div className="flex justify-center items-center m-auto flex-col gap-7 p-10 bg-gray-50">
-      <p className="text-secondary text-5xl px-10 sm:text-6xl font-extrabold max-w-[1300px] sm:leading-[75px]">
+      <p className="text-secondary text-5xl px-5 sm:text-6xl font-extrabold max-w-[1300px] sm:leading-[75px]">
         Findtrend helps you to increase your productivity and reduce your
         computer's memory load,
         <span className="text-muted">
