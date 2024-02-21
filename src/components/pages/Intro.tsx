@@ -7,7 +7,7 @@ import pintrestIcon from "@/assets/icons/pintrest.svg";
 import muskIcon from "@/assets/icons/musk.svg";
 export default function Intro() {
   return (
-    <div className="h-screen bg-secondary flex justify-center items-center m-auto flex-col gap-7 p-10 ">
+    <div className="h-auto bg-secondary sm:h-screen flex justify-center items-center m-auto flex-col gap-7 p-10 ">
       <p className="text-white text-7xl text-center font-extrabold ">
         Minimize your tabs.
         <br />
