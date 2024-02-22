@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import brandsImage from "../../../assets/images/brands.png";
+import brandsImage from "../../../assets/images/Brands.png";
 import facebookIcon from "../../../assets/icons/facebook.svg";
 import discordIcon from "../../../assets/icons/discord.svg";
 import linkedInIcon from "../../../assets/icons/linkedin.svg";
