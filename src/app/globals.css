@@ -78,3 +78,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+li::before {
+  content: "\2713"; /* Unicode character for a checkmark */
+  font-size: 1.2em; /* Adjust size if needed */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
