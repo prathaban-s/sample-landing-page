@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import brandsImage from "../../assets/images/Brands.png";
-import facebookIcon from "../../assets/icons/facebook.svg";
-import discordIcon from "../../assets/icons/discord.svg";
-import linkedInIcon from "../../assets/icons/linkedin.svg";
-import twitterIcon from "../../assets/icons/twitter.svg";
-import masterIcon from "../../assets/icons/master.svg";
-import muskIcon from "../../assets/icons/musk.svg";
-import pintrestIcon from "../../assets/icons/pintrest.svg";
-import wkIcon from "../../assets/icons/wk.svg";
+import brandsImage from "../../../assets/images/brands.png";
+import facebookIcon from "../../../assets/icons/facebook.svg";
+import discordIcon from "../../../assets/icons/discord.svg";
+import linkedInIcon from "../../../assets/icons/linkedin.svg";
+import twitterIcon from "../../../assets/icons/twitter.svg";
+import masterIcon from "../../../assets/icons/master.svg";
+import muskIcon from "../../../assets/icons/musk.svg";
+import pintrestIcon from "../../../assets/icons/pintrest.svg";
+import wkIcon from "../../../assets/icons/wk.svg";
 
 import ImageCard from "../card/ImageCard";
 

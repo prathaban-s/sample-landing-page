@@ -1,11 +1,11 @@
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import SlidingCard from "../card/SlidingCard";
-import facebookIcon from "../../assets/icons/facebook.svg";
-import twitterIcon from "../../assets/icons/twitter.svg";
-import pintrestIcon from "../../assets/icons/pintrest.svg";
-import muskIcon from "../../assets/icons/musk.svg";
-import speedIcon from "../../assets/icons/speed.svg";
+import facebookIcon from "../../../assets/icons/facebook.svg";
+import twitterIcon from "../../../assets/icons/twitter.svg";
+import pintrestIcon from "../../../assets/icons/pintrest.svg";
+import muskIcon from "../../../assets/icons/musk.svg";
+import speedIcon from "../../../assets/icons/speed.svg";
 import Image from "next/image";
 
 export default function Intro() {
