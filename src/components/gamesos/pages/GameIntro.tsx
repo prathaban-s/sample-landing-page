@@ -3,9 +3,9 @@ import Header from "./Header";
 import { Button } from "@/components/ui/button";
 export default function GameIntro() {
   return (
-    <div className="h-screen intro-bg bg-cover bg-center">
+    <div className="h-screen intro-bg bg-center shadow-inner shadow-stone-950">
       <Header />
-      <div className="flex flex-col items-center justify-center gap-5 h-full pt-5">
+      <div className="flex flex-col items-center justify-center gap-5 h-full pt-5 px-10">
         <p className="uppercase text-6xl font-bold">SURVIVE AT ALL COSTS</p>
         <p className="uppercase text-lg font-semibold">
           Experience new social battle royale game

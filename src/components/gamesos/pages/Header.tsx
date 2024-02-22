@@ -58,7 +58,7 @@ export default function Header() {
           <div className="flex flex-col mt-10 items-start gap-5">
             {linkElements}
           </div>
-          <SheetFooter className="absolute bottom-10 gap-2">
+          <SheetFooter className="absolute bottom-10 gap-2 flex-row">
             <Image src={xboxIcon} alt="xbox" sizes="50" />
             <Image src={steamIcon} alt="steam" sizes="50" />
           </SheetFooter>
