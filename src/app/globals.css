@@ -7,6 +7,7 @@
     --white: 0 0% 100%;
     --black: 0 0% 0%;
     --gray: 0, 0%, 54.5%;
+    --green: 84.5, 70.5%, 47.6%;
 
     --background: var(--white);
     --foreground: var(--black);
@@ -29,7 +30,7 @@
     --accent: 0, 0%, 9.4%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 84.5, 70.5%, 47.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;

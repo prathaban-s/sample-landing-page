@@ -64,7 +64,7 @@ export default function Deals() {
             </Button>
           </div>
         </div>
-        <div className="h-[640px] w-full sm:w-[360px] bg-white p-10 rounded-lg text-black flex flex-col justify-between">
+        <div className="min-h-[640px] w-full sm:w-[360px] bg-white p-10 rounded-lg text-black flex flex-col justify-between">
           <div className="border-b pb-3">
             <p className=" font-bold text-3xl italic">Premium</p>
             <p className="text-lg font-semibold italic">
