@@ -36,7 +36,7 @@ export default function Header() {
   return (
     <>
       <Sheet>
-        <div className="flex justify-between">
+        <div className="flex justify-between fixed z-50 w-full p-10 bg-transparent">
           <Image src={gamesosLogo} alt="logo" width={50} height={25} />
           <div className=" items-center gap-10 hidden lg:flex">
             {linkElements}
