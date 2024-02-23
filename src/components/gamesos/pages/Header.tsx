@@ -37,8 +37,8 @@ export default function Header() {
     <>
       <Sheet>
         <div className="flex justify-between fixed z-50 w-full p-10 bg-transparent">
-          <Image src={gamesosLogo} alt="logo" width={50} height={25} />
-          <div className=" items-center gap-10 hidden lg:flex">
+          <Image src={gamesosLogo} alt="logo" />
+          <div className=" items-center gap-10 w-[50px] h-[25px] hidden lg:flex">
             {linkElements}
           </div>
           <div className="flex justify-center">
@@ -46,21 +46,25 @@ export default function Header() {
               <MenuIcon size={24} />
             </SheetTrigger>
             <div className="hidden gap-4 border-l pl-3 lg:flex">
-              <Image src={xboxIcon} alt="xbox" sizes="50" />
-              <Image src={steamIcon} alt="steam" sizes="50" />
+              <Image src={xboxIcon} alt="xbox" className="w-[50px] h-[50px]" />
+              <Image
+                src={steamIcon}
+                alt="steam"
+                className="w-[50px] h-[50px]"
+              />
             </div>
           </div>
         </div>
         <SheetContent side="left" className="bg-black">
           <SheetHeader>
-            <Image src={gamesosLogo} alt="logo" width={50} height={25} />
+            <Image src={gamesosLogo} alt="logo" className="w-[50px] h-[25px]" />
           </SheetHeader>
           <div className="flex flex-col mt-10 items-start gap-5">
             {linkElements}
           </div>
           <SheetFooter className="absolute bottom-10 gap-2 flex-row">
-            <Image src={xboxIcon} alt="xbox" sizes="50" />
-            <Image src={steamIcon} alt="steam" sizes="50" />
+            <Image src={xboxIcon} alt="xbox" className="w-[50px] h-[50px]" />
+            <Image src={steamIcon} alt="steam" className="w-[50px] h-[50px]" />
           </SheetFooter>
         </SheetContent>
       </Sheet>

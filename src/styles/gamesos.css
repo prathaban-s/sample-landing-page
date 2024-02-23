@@ -56,7 +56,7 @@
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
+    --muted: 0, 0%, 58.8%;
     --muted-foreground: 215 20.2% 65.1%;
 
     --accent: 217.2 32.6% 17.5%;
@@ -86,5 +86,8 @@
   }
   .features-bg {
     background-image: url("../assets/gamesos/images/features-bg-img.jpg");
+  }
+  .quotes-bg {
+    background-image: url("../assets/gamesos/images/quotes-bg-img.jpg");
   }
 }
